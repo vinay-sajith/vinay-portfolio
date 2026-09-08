@@ -339,26 +339,18 @@ a {
 
 
 .education-mark {
-  width: 70px;
-  height: 70px;
-
-  flex-shrink: 0;
-
-  border-radius: 50%;
-
-  background: var(--yellow);
-
-  color: var(--blue);
-
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
 
-  font-family: "Syne Mono", monospace;
-
-  font-size: 11px;
-
-  font-weight: 700;
+.education-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 
@@ -487,7 +479,7 @@ a {
   border-radius: 50%;
   background: var(--yellow);
   overflow: hidden;
-  border: 6px solid var(--yellow);
+  border: 6px solid ;
 }
 
 .portrait img {
@@ -879,23 +871,23 @@ a {
 @media (max-width: 650px) {
 
   .about-page {
-    padding-bottom: 150px;
+    padding-bottom: 160px;
   }
 
   .about-hero {
-    min-height: 560px;
-
-    padding-top: 90px;
+    min-height: auto;
+    padding-top: 70px;
   }
 
   .about-hero-art {
     width: 320px;
-    height: 280px;
+    height: 300px;
   }
 
   .about-name-curve {
     width: 320px;
     height: 160px;
+    top: 0;
   }
 
   .about-name-curve text {
@@ -905,40 +897,27 @@ a {
   .about-portrait {
     width: 120px;
     height: 120px;
-
     top: 115px;
   }
 
   .about-title {
+    margin-top: 0;
     font-size: 20px;
+    font-weight: 500;
   }
 
   .about-writing {
     width: 90%;
+    margin: 55px auto 0;
   }
 
   .about-writing > p {
+    font-family: "Space Grotesk", sans-serif;
     font-size: 15px;
     line-height: 1.8;
-
-    margin-bottom: 28px;
-  }
-
-  .about-photo-block {
-    margin: 70px 0;
-  }
-
-  .about-section-break {
-    margin-top: 110px;
-    margin-bottom: 45px;
-  }
-
-  .about-section-break h2 {
-    font-size: 40px;
-  }
-
-  .learning-process {
-    font-size: 17px;
+    color: var(--white);
+    opacity: 0.88;
+    margin: 0 0 28px;
   }
 }
 

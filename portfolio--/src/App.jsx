@@ -12,6 +12,7 @@ import About from "./pages/about";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
 import PageTransition from "./PageTransition";
+import ignouLogo from "./assets/ignou-logo.png";
 
 
 /* =================================
@@ -302,9 +303,8 @@ function Home() {
 
 
             <div className="education-mark">
-              IGNOU
-            </div>
-
+  <img src={ignouLogo} alt="IGNOU logo" />
+</div>
 
             <div className="education-content">
 
