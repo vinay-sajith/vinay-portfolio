@@ -57,15 +57,18 @@ function Contact() {
         {/* SOCIAL LINKS */}
         <div className="contact-links">
 
-          <a href="#" aria-label="GitHub">
+          <a href="https://github.com/vinay-sajith" aria-label="GitHub">
             <img src={git} alt="GitHub" />
           </a>
 
-          <a href="#" aria-label="Email">
-            <img src={gmail} alt="Email" />
-          </a>
+          <a
+  href="mailto:vinaysajith645@gmail.com"
+  aria-label="Email"
+>
+  <img src={gmail} alt="Email" />
+</a>
 
-          <a href="#" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/vinay-sajith/" aria-label="LinkedIn">
             <img src={linkedin} alt="LinkedIn" />
           </a>
 

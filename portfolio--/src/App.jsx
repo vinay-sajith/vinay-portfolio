@@ -359,7 +359,7 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename="/vinay-portfolio">
 
       <div className="site">
 
