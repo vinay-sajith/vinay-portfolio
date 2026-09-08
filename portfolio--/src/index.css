@@ -1014,27 +1014,22 @@ a {
 
 .contact-name-curve {
   position: absolute;
-
   width: 420px;
-  height: 180px;
-
+  height: 420px;
   left: 50%;
-  top: 55px;
-
+  top: -75px;
+  margin-top: -17px;
   transform: translateX(-50%);
-
   overflow: visible;
-
   z-index: 3;
 }
 
 .contact-name-curve text {
   font-family: "Syne Mono", monospace;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
   fill: var(--white);
 }
-
 
 /* Portrait */
 
@@ -1053,6 +1048,7 @@ a {
   position: relative;
 
   z-index: 2;
+  margin-top:-90px;
 }
 
 .contact-portrait img {
@@ -1068,14 +1064,6 @@ a {
 
 /* Touch me */
 
-.contact-title {
-  margin-top: 25px;
-
-  font-size: 24px;
-  font-weight: 500;
-
-  letter-spacing: -0.02em;
-}
 
 
 /* =================================
@@ -1154,16 +1142,15 @@ a {
     padding-top: 100px;
   }
 
-  .contact-name-curve {
-    width: 330px;
-    height: 150px;
+.contact-name-curve {
+  width: 320px;
+  height: 320px;
+  top:-65px;
+}
 
-    top: 55px;
-  }
-
-  .contact-name-curve text {
-    font-size: 38px;
-  }
+.contact-name-curve text {
+  font-size: 36px;
+}
 
   .contact-portrait {
     width: 120px;

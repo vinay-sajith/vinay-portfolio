@@ -10,29 +10,29 @@ function Contact() {
       {/* CONTACT HERO */}
       <section className="contact-hero">
 
-        <svg
-          className="contact-name-curve"
-          viewBox="0 0 420 180"
-          aria-label="Wanna Contact?"
-        >
-          <defs>
-            <path
-              id="contactArc"
-              d="M 45 135 Q 210 -55 375 135"
-              fill="none"
-            />
-          </defs>
+       <svg
+  className="contact-name-curve"
+  viewBox="0 0 420 420"
+  aria-label="WannaContact?"
+>
+  <defs>
+   <path
+  id="contactCircle"
+  d="M 105 210 A 105 105 0 0 1 315 210"
+  fill="none"
+/>
+  </defs>
 
-          <text>
-            <textPath
-              href="#contactArc"
-              startOffset="50%"
-              textAnchor="middle"
-            >
-              wanna contact?
-            </textPath>
-          </text>
-        </svg>
+  <text>
+    <textPath
+      href="#contactCircle"
+      startOffset="50%"
+      textAnchor="middle"
+    >
+      wanna contact?
+    </textPath>
+  </text>
+</svg>
 
         <div className="contact-portrait">
           <img src={portrait} alt="Vinay Sajith" />
