@@ -491,17 +491,15 @@ a {
 }
 
 
-  .name-curve {
-    width: 215px;
-    height: 95px;
-
-    top: -48px;
-  }
-
+ .name-curve {
+  width: 270px;
+  height: 120px;
+}
 
 .name-curve text {
-  font-size: 16px;
+  font-size: 50px;
   letter-spacing: 4px;
+  top: -10px;
 }
 
 
