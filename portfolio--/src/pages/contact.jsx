@@ -38,9 +38,7 @@ function Contact() {
           <img src={portrait} alt="Vinay Sajith" />
         </div>
 
-        <h2 className="contact-title">
-          touch me
-        </h2>
+
 
       </section>
 
