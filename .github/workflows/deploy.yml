@@ -32,12 +32,13 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: lts/*
-          cache: npm
 
       - name: Install dependencies
+        working-directory: portfolio--
         run: npm ci
 
       - name: Build
+        working-directory: portfolio--
         run: npm run build
 
       - name: Setup GitHub Pages
@@ -46,7 +47,7 @@ jobs:
       - name: Upload build
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./dist
+          path: ./portfolio--/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
