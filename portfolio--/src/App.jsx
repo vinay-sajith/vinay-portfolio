@@ -216,6 +216,19 @@ function Home() {
                 Java
               </span>
 
+                <span>
+                Django
+              </span>
+                <span>
+                React
+              </span>
+                <span>
+                SQL
+              </span>
+                <span>
+                JavaScript
+              </span>
+
             </div>
 
           </div>
@@ -260,6 +273,7 @@ function Home() {
               </span>
 
               AI &amp; DevOps
+4
 
             </h3>
 
