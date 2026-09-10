@@ -459,7 +459,7 @@ function App() {
           </Link>
 
           <Link to="/hobbies">
-            HOBBIES
+            CERTIFICATES
           </Link>
 
           <Link to="/learn">

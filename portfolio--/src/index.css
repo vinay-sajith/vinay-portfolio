@@ -435,7 +435,7 @@ a {
 
   .top-nav {
     width: 96%;
-
+    z-index: 10000;
     grid-template-columns:
       repeat(5, 1fr);
 
@@ -1141,6 +1141,7 @@ a {
   }
 
 .contact-name-curve {
+  pointer-events: none;
   width: 320px;
   height: 320px;
   top:-65px;
