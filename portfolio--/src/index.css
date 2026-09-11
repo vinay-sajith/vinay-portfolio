@@ -477,7 +477,7 @@ a {
   top: 15px;
   transform: translateX(-50%);
   border-radius: 50%;
-  background: var(--yellow);
+  /* background: var(--yellow); */
   overflow: hidden;
   border: 6px solid ;
 }
