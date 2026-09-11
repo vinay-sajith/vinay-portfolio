@@ -479,7 +479,7 @@ a {
   border-radius: 50%;
   /* background: var(--yellow); */
   overflow: hidden;
-  border: 6px solid ;
+  /* border: 6px solid ; */
 }
 
 .portrait img {
