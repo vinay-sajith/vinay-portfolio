@@ -867,7 +867,7 @@ a {
 @media (max-width: 650px) {
 
   .about-page {
-    padding-bottom: 100px;
+    padding-bottom: 90px;
   }
 
   .about-hero {
@@ -897,14 +897,14 @@ a {
   }
 
   .about-title {
-    margin-top: -160px;
+    margin-top: -90px;
     font-size: 20px;
     font-weight: 500;
   }
 
   .about-writing {
-    width: 90%;
-    margin: 55px auto 0;
+    width: 80%;
+    margin: 10px auto 0;
   }
 
   .about-writing > p {
@@ -913,7 +913,7 @@ a {
     line-height: 1.8;
     color: var(--white);
     opacity: 0.88;
-    margin: 0 0 28px;
+    margin: 0px 0 28px;
   }
 }
 
