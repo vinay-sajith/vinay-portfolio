@@ -13,6 +13,9 @@ import Resume from "./pages/resume";
 import Contact from "./pages/contact";
 import PageTransition from "./PageTransition";
 import ignouLogo from "./assets/ignou-logo.png";
+import Learn from "./pages/learn";
+import Dev from "./pages/dev";
+import Certificates from "./pages/certificate";
 
 
 /* =================================
@@ -183,7 +186,7 @@ function Home() {
 
 
           <h2>
-            SKILL STACK
+            skill stack
           </h2>
 
 
@@ -309,7 +312,7 @@ function Home() {
 
 
           <h2>
-            MY EDUCATION
+            my education
           </h2>
 
 
@@ -442,7 +445,18 @@ function App() {
       path="/contact"
       element={<Contact />}
     />
-
+    <Route
+      path="/learn"
+      element={<Learn />}
+    />
+        <Route
+      path="/dev"
+      element={<Dev />}
+    />
+   <Route
+      path="/Certificates"
+      element={<Certificates />}
+    />
   </Routes>
 
 </PageTransition>
@@ -458,13 +472,14 @@ function App() {
             DEV
           </Link>
 
-          <Link to="/hobbies">
+          <Link to="/Certificates">
             CERTIFICATES
           </Link>
 
           <Link to="/learn">
             LEARN
           </Link>
+          
 
         </nav>
 
