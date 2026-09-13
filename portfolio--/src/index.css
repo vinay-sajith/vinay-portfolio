@@ -867,12 +867,12 @@ a {
 @media (max-width: 650px) {
 
   .about-page {
-    padding-bottom: 160px;
+    padding-bottom: 100px;
   }
 
   .about-hero {
     min-height: auto;
-    padding-top: 70px;
+    padding-top: 3px;
   }
 
   .about-hero-art {
@@ -893,11 +893,11 @@ a {
   .about-portrait {
     width: 120px;
     height: 120px;
-    top: 115px;
+    top: 60px;
   }
 
   .about-title {
-    margin-top: 0;
+    margin-top: 10;
     font-size: 20px;
     font-weight: 500;
   }
@@ -924,7 +924,7 @@ a {
 .resume-page {
   min-height: 100vh;
   background: var(--blue);
-  padding: 120px 20px 180px;
+  padding: 40px 20px 60px;
 }
 
 .resume-heading {
@@ -932,12 +932,7 @@ a {
   margin: 0 auto 50px;
 }
 
-.resume-heading p {
-  font-family: "Syne Mono", monospace;
-  font-size: 12px;
-  color: var(--yellow);
-  margin-bottom: 20px;
-}
+
 
 .resume-heading h1 {
   font-size: clamp(50px, 8vw, 90px);
@@ -981,6 +976,22 @@ a {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+
+@media (max-width: 650px) {
+  .resume-page {
+    padding: 30px 15px 50px;
+  }
+
+  .resume-heading {
+    width: 92%;
+  }
+
+  .resume-viewer {
+    width: 100%;
+    height: 700px;
+  }
 }
 /* =================================
    CONTACT PAGE

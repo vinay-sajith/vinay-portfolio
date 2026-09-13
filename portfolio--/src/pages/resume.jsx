@@ -5,7 +5,7 @@ function Resume() {
     <div className="resume-page">
 
       <div className="resume-heading">
-        <p>03 / RESUME</p>
+       
 
         <h1>
           my <span>resume.</span>
