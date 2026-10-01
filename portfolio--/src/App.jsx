@@ -231,6 +231,12 @@ function Home() {
                 <span>
                 JavaScript
               </span>
+              <span>
+                Git
+              </span>
+              <span>
+                Github
+              </span>
 
             </div>
 
@@ -276,7 +282,7 @@ function Home() {
               </span>
 
               AI &amp; DevOps
-4
+
 
             </h3>
 
@@ -284,12 +290,10 @@ function Home() {
             <div className="skills">
 
               <span>
-                GitHub
+                n8n
               </span>
 
-              <span>
-                Prompt Engineering
-              </span>
+              
 
             </div>
 

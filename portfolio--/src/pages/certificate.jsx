@@ -16,14 +16,14 @@ function Certificates() {
       issuer: "Anthropic",
       date: "Issued Sep 2026",
       logo: anthropicLogo,
-      link: "https://www.theforage.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_695eb780487d6ae0f5d2f1a6_1768468934157_completion_certificate.pdf",
+      link: "https://academy.claude.com/verify/05d721ce64047cbcd896c7b7a5b8ef24",
     },
     {
       title: "Walmart USA - Advanced Software Engineering Job Simulation",
       issuer: "Forage",
       date: "Issued Jan 2026",
       logo: walmartLogo,
-      link: "https://academy.claude.com/verify/05d721ce64047cbcd896c7b7a5b8ef24",
+      link: "https://www.theforage.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_695eb780487d6ae0f5d2f1a6_1768468934157_completion_certificate.pdf",
     },
   ];
 

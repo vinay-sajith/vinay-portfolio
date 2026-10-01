@@ -291,7 +291,7 @@ a {
 .skills span {
   border: 1px solid var(--yellow);
   background-color: rgba(255, 33, 33, 0.804);
-  color: var(--blue);
+  color: var(--white);
   border-radius: 999px;
 
   padding: 10px 18px;
@@ -316,7 +316,7 @@ a {
 .education-section {
   background: var(--blue);
 
-  padding: 40px 20px 60px;
+  padding: 40px 20px 140px;
 }
 
 
@@ -408,14 +408,14 @@ a {
 
   letter-spacing: 0.08em;
 
-  color: var(--blue);
+  color: var(--white);
 
   transition: color 0.25s ease;
 }
 
 
 .bottom-nav a:first-child {
-  color: var(--blue);
+  color: var(--white);
 }
 
 
@@ -549,7 +549,7 @@ a {
 
 
   .education-section {
-    padding: 30px 15px 50px;
+    padding: 30px 15px 90px;
   }
 
 
